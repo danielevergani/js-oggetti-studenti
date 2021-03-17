@@ -8,7 +8,7 @@ var studente = {
 };
 
 for (var key in studente){
-    console.log(studente[key]);
+    console.log(key + " " + studente[key]);
 }
 
 
